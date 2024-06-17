@@ -48,6 +48,7 @@ img {
 
   --transition-timing: 0.35s;
 }
+
 /* .card.active {
   flex-grow: 100;
 } */
@@ -55,7 +56,7 @@ img {
   flex-grow: 7;
 }
 
-.card > .background {
+.card>.background {
   position: absolute;
   inset: 0;
   object-fit: cover;
@@ -64,11 +65,12 @@ img {
   z-index: -1;
   transition: var(--transition-timing) ease;
 }
-.card:hover > .background {
+
+.card:hover>.background {
   filter: brightness(1);
 }
 
-.card > .card-content {
+.card>.card-content {
   display: flex;
   align-items: center;
   position: absolute;
@@ -79,16 +81,17 @@ img {
   transition: var(--transition-timing);
   z-index: 10;
 }
-.card:hover > .card-content {
+
+.card:hover>.card-content {
   inset: 20px;
   top: auto;
 }
 
-.card-content > * {
+.card-content>* {
   transition: var(--transition-timing);
 }
 
-.card-content > .profile-image {
+.card-content>.profile-image {
   min-width: 50px;
   max-width: 50px;
   height: 50px;
@@ -99,28 +102,32 @@ img {
   border-radius: 50%;
   overflow: hidden;
 }
+
 .card:hover .profile-image {
   border: 1px solid rgb(110, 252, 205);
 }
-.profile-image > svg {
+
+.profile-image>svg {
   stroke: #fefefe;
 }
-.card:hover .profile-image > svg {
+
+.card:hover .profile-image>svg {
   stroke: rgb(110, 252, 205);
 }
 
-.card-content > .title {
+.card-content>.title {
   white-space: pre;
   margin-left: 10px;
   translate: 0 100%;
   opacity: 0;
 }
+
 .card:hover .title {
   opacity: 1;
   translate: 0 0;
 }
 
-.card > .backdrop {
+.card>.backdrop {
   position: absolute;
   left: 0;
   right: 0;
