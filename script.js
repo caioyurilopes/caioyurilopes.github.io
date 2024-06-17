@@ -1,17 +1,25 @@
-const cardsContainer = document.querySelector(".container");
+const cardsContainer        =   document.querySelector('.container');
 
-cardsContainer.addEventListener("click", (e) => {
-  const target = e.target.closest(".card");
+cardsContainer.addEventListener('click', (e) => {
+    const target            =   e.target.closest('.card');
 
-  if (!target) return;
+    if (!target) return;
 
-  cardsContainer.querySelectorAll(".card").forEach((card) => {
-    card.classList.remove("active");
-  });
+    cardsContainer.querySelectorAll('.card').forEach((card) => {
+        card.classList.remove('active');
+    });
 
-  target.classList.add("active");
+    target.classList.add('active');
 });
 
-$("aboutMe").click(function () {
-  window.location.href = "/sobre-mim.html";
+// Redirecionamentos //
+const divBoutMe             =   document.getElementById('aboutMe');
+divBoutMe.addEventListener("click", () =>{
+    window.location.href    =   '/sobre-mim.html';
 });
+
+const divMyIG               =   document.getElementById('myIG');
+divMyIG.addEventListener("click", () =>{
+    window.location.href    =   'https://instagram.com/caioyurilopes';
+});
+// ----------------- //
