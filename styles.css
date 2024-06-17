@@ -34,7 +34,7 @@ body {
     display: flex;
     gap: 10px;
     margin-inline: 50px;
-    background: transparent; /* Fundo transparente */
+    background: transparent; /* Adicionamos o fundo branco */
     padding: 20px; /* Adicionamos o espaçamento interno */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionamos a sombra */
