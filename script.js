@@ -14,12 +14,17 @@ cardsContainer.addEventListener('click', (e) => {
 
 // Redirecionamentos //
 const divBoutMe             =   document.getElementById('aboutMe');
-divBoutMe.addEventListener("click", () =>{
+divBoutMe.addEventListener('click', () =>{
     window.location.href    =   '/sobre-mim.html';
 });
 
 const divMyIG               =   document.getElementById('myIG');
-divMyIG.addEventListener("click", () =>{
+divMyIG.addEventListener('click', () =>{
     window.location.href    =   'https://instagram.com/caioyurilopes';
+});
+
+const divGithub             =   document.getElementById('github');
+divGithub.addEventListener('click', () =>{
+    window.location.href    =   'https://github.com/caioyurilopes';
 });
 // ----------------- //
