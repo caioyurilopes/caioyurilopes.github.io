@@ -11,3 +11,7 @@ cardsContainer.addEventListener("click", (e) => {
 
   target.classList.add("active");
 });
+
+$("aboutMe").click(function () {
+  window.location.href = "/sobre-mim.html";
+});
