@@ -8,16 +8,6 @@
     box-sizing: border-box;
 }
 
-/* body {
-    font-family: Inter, sans-serif;
-    height: 100vh;
-    color: white;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 body {
     font-family: Inter, sans-serif;
     height: 100vh;
@@ -39,15 +29,6 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionamos a sombra */
 }
-
-/* .container {
-    width: 100%;
-    width: 820px;
-    height: 340px;
-    display: flex;
-    gap: 10px;
-    margin-inline: 50px;
-} */
 
 img {
     width: 100%;
